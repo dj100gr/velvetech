@@ -10,6 +10,7 @@ namespace velvetech.Repositories
         public DbSet<User> Users { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder options)
-            => options.UseSqlite(@"Data Source=C:\velvetech.db");
+            => options.UseSqlite(@"Data Source=C:\PROG\velvetech.db");
+
     }
 }
